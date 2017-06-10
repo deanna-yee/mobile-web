@@ -1,0 +1,48 @@
+/*
+Deanna Yee
+deannayee@my.smccd.edu
+style.css
+homework3
+4/10/17
+*/
+
+.products .ui-block-a img{
+	display: block;
+	margin: auto;
+	width: 75%;
+}
+
+#contact .ui-block-a{
+	width: 40%;
+}
+
+#contact .ui-block-b{
+	width: 60%;
+}
+
+.products .ui-block-a{
+	width: 35%;
+}
+
+.products .ui-block-b{
+	width: 65%;
+}
+
+@media all and (max-width: 700px){
+	.products .ui-block-a, .products .ui-block-b{
+		width: 100%;
+	}
+
+	#contact .ui-block-a, #contact .ui-block-b{
+		width: 100%;
+	}
+
+	#contactuspage h1, #locationpage h1, #homepage h1, #productspage h1{
+		font-size: 90%;
+	}
+
+	#contactuspage li a, #locationpage li a, #homepage li a, #productspage li a{
+		font-size: 70%;
+	}
+
+}

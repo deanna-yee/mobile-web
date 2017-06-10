@@ -1,0 +1,37 @@
+/*
+	Deanna Yee
+	deannayee@my.smccd.edu
+	CIS 128
+	homework1.html
+	homework 1
+	2/1/17
+*/
+#heading{
+	text-align: center;
+}
+
+#profilePic{
+	width: 175px;
+	height: 350px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+#aboutMe{
+	width: 100%;
+	font-size: 18px;
+}
+
+#CIS128{
+	clear: both;
+	font-size: 18px;
+}
+
+ul{
+	margin-top: 35px;
+}
+
+li{
+	font-size: 18px;
+}

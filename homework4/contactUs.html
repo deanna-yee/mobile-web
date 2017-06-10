@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+Deanna Yee
+deannayee@my.smccd.edu
+index.html
+homework4
+4/29/17
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Gives information about ABC Toys and their products">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ABC Toys</title>
+		<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+
+	<body>
+		<div data-role="page" id="contactuspage">
+			<div data-role="header" data-position="fixed" data-tap-toggle="false">
+				<h1>ABC Toys Contact Us</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="ui-grid-a ui-responsive" id="contact">
+					<div class="ui-block-a">
+						<p>Email: <a href="mailto:customerservice@abctoys.com">customerservice@abctoys.com</a></p>
+						<p>Telephone: <a href="tel:3348210904">(334)821-0904</a></p>
+						<p>Address: 1627 Opelika Rd Ste 64, Auburn, AL 26830</p>
+						<p>Facebook Page: <a href="www.facebook.com/abctoys">www.facebook.com/abctoys</a></p>
+					</div>
+					<div class="ui-block-b">
+						<form method="post" action="form.php">
+							<div class="ui-field-contain">
+								<label for="name">Name:</label>
+								<input type="text" name="name" id="name">
+								<label for="email">Email:</label>
+								<input type="email" name="email" id="email" placeholder="Your email...">
+								<label for="comment">Comment:</label>
+								<textarea name="comment" id="comment"></textarea>
+							</div>
+							<input type="submit" value="Submit">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-tap-toggle="false">
+				<h1>More about ABC Toys</h1>
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn">Index</a></li>
+						<li><a href="#" class="ui-btn-active">Contact Us</a></li>
+						<li><a href="products.html" class="ui-btn">Products</a></li>
+						<li><a href="location.html" class="ui-btn">Location</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

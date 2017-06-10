@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+Deanna Yee
+deannayee@my.smccd.edu
+index.html
+homework4
+4/29/17
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Gives information about ABC Toys and their products">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ABC Toys</title>
+		<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+
+	<body>
+		<div data-role="page" id="locationpage">
+			<div data-role="header" data-position="fixed" data-tap-toggle="false">
+				<h1>ABC Toys Locations</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div id="location">
+					You are at Latitude: __________, <br>
+					Longitude: __________
+				</div>
+				<div id="map"></div>
+			</div>
+			<div data-role="footer" data-position="fixed" data-tap-toggle="false">
+				<h1>More about ABC Toys</h1>
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn">Index</a></li>
+						<li><a href="contactUs.html" class="ui-btn">Contact Us</a></li>
+						<li><a href="products.html" class="ui-btn">Products</a></li>
+						<li><a href="#" class="ui-btn-active">Location</a></li>
+					</ul>
+				</div>
+			</div>
+			<script src="http://maps.google.com/maps/api/js?key=AIzaSyCtEZ2EUi6hlyQo56rnJy0qBvInvLMjX7E"></script>
+			<script src="js/geolocation.js"></script>
+		</div>
+	</body>
+</html>
